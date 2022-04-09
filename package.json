@@ -38,6 +38,7 @@
     "commit": "git-cz",
     "semantic-release": "semantic-release",
     "semantic-release-prepare": "ts-node tools/semantic-release-prepare",
+    "postinstall": "npm run build",
     "precommit": "lint-staged",
     "travis-deploy-once": "travis-deploy-once",
     "prepush": "npm run test:prod && npm run build",
