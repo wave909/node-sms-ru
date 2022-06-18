@@ -1,6 +1,6 @@
 {
-  "name": "node-sms-ru",
-  "version": "0.0.6",
+  "name": "@wave909/node-sms-ru",
+  "version": "0.0.8",
   "description": "node-sms-ru это библиотека для работы с API сервиса СМС рассылок https://sms.ru",
   "keywords": [
     "sms",
@@ -38,7 +38,6 @@
     "commit": "git-cz",
     "semantic-release": "semantic-release",
     "semantic-release-prepare": "ts-node tools/semantic-release-prepare",
-    "postinstall": "npm run build",
     "precommit": "lint-staged",
     "travis-deploy-once": "travis-deploy-once",
     "prepush": "npm run test:prod && npm run build",
